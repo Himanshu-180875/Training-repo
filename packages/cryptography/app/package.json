@@ -1,0 +1,33 @@
+{
+  "name": "jwt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "set NODE_ENV=jwt&&node index.js",
+    "starting": "node index.js",
+    "session": "set NODE_ENV=session&& node index.js",
+    "jwt": "set NODE_ENV=jwt&& node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.1",
+    "database": "^1.0.0",
+    "express": "^4.18.1",
+    "express-mysql-session": "^2.1.8",
+    "express-session": "^1.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^2.1.0",
+    "log4js": "^6.5.2",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.16",
+    "uuid": "^8.3.2"
+  }
+}

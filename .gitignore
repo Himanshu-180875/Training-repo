@@ -1,0 +1,4 @@
+node_modules
+packages/cryptography/app/.env
+packages/websocket/.env
+.env

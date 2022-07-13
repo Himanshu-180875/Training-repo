@@ -1,0 +1,9 @@
+{
+  "packages": [
+    "packages/websocket",
+    "packages/cryptography/app",
+    "packages/database"
+  ],
+  "useNx": false,
+  "version": "1.0.0"
+}

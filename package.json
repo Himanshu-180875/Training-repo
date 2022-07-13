@@ -1,0 +1,20 @@
+{
+  "name": "Projects",
+  "private": "true",
+  "version": "1.0.0",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "lerna": "^5.1.6",
+    "log4js": "^6.6.0",
+    "ws": "^8.8.0"
+  },
+  "scripts": {
+    "start": "lerna run start --stream",
+    "test": "lerna run test",
+    "new-version": "lerna version --conventional-commits --yes",
+    "diff": "lerna diff"
+  }
+}
